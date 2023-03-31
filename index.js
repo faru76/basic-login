@@ -54,6 +54,8 @@ function register(newusername, newpassword, newname, newemail){
             name : newname,
             email: newemail
         })
+
+        return "new user is added"
     }
 }
 
@@ -62,4 +64,5 @@ function register(newusername, newpassword, newname, newemail){
 
 //register attemps
 //console.log(register("faru","123456","melaka","utem@mail.com")) //this user already exist
-//console.log(register("utem","123456","melaka","utem@mail.com")) //
+console.log(register("utem","123456","melaka","utem@mail.com")) //this is the new user
+console.log(login("utem", "123456"))
