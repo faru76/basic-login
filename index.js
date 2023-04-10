@@ -36,7 +36,7 @@ function login(username, password){
     }
     else {
         return "Username not found"
-    }
+    }   
 }
 
 function register(newusername, newpassword, newname, newemail){
@@ -65,4 +65,4 @@ function register(newusername, newpassword, newname, newemail){
 //register attemps
 //console.log(register("faru","123456","melaka","utem@mail.com")) //this user already exist
 console.log(register("utem","123456","melaka","utem@mail.com")) //this is the new user
-//console.log(login("utem", "123456")) //attempt to check newly added user
+//console.log(login("utem", "123456")) //attempt to check newly added usert
